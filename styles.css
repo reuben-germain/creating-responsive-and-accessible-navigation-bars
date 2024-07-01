@@ -28,11 +28,11 @@ nav ul {
 }
 
 nav li {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 nav li:hover {
-    background-color: #f0c808;
+    color: #ff583d;
 }
 
 nav a {
@@ -47,5 +47,6 @@ nav a:focus {
     color: black;
 }
 nav a:hover {
+    background-color: #f0c808;
     color: #ff583d;
 }
