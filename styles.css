@@ -15,6 +15,10 @@ body {
 
 }
 
+nav {
+    border: 1px solid #333;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
