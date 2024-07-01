@@ -1,15 +1,5 @@
-* {
-    border: 1px solid red;
-}
-nav {
-    border: 5px solid green;
-}
-ul {
-    border: 2px solid blue;
-}
-li {
-    border: 3px dotted yellow;
-}
-a {
-    background-color: plum;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
