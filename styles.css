@@ -10,3 +10,6 @@ ul {
 li {
     border: 3px dotted yellow;
 }
+a {
+    background-color: plum;
+}
