@@ -27,14 +27,6 @@ nav ul {
     padding: 0;
 }
 
-nav li {
-    
-}
-
-nav li:hover {
-    color: #ff583d;
-}
-
 nav a {
     color: #00bff9;
     text-decoration: none;
