@@ -31,10 +31,6 @@ nav ul {
     align-items: center;
 }
 
-nav li {
-    border: 1px solid red;
-}
-
 nav a {
     padding: 0.5rem 1rem;
     display: block;
@@ -62,7 +58,13 @@ nav a:hover {
 img {
     width: 100px;
     /* max-width: 100%; */
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    /* height: auto; */
+    /* display: block; */
+    /* margin: 0 auto; */
+}
+
+.logo {
+    flex-basis: 500px;
+    text-align: center;
+    border: 1px solid red;
 }
