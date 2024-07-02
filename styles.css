@@ -64,7 +64,11 @@ img {
 }
 
 .logo {
-    flex-basis: 500px;
+    flex-basis: 250px;
     text-align: center;
-    border: 1px solid red;
+}
+
+.logo a:hover {
+    background-color: transparent;
+    background-image: none;
 }
