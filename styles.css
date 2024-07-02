@@ -14,17 +14,41 @@ body {
     /* line-height: 1.6; */
 }
 
+nav {
+    margin: 1rem auto;
+    background-color: #eee;
+    background-image: url(bg-img.jpg);
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
 }
 
 nav a {
     padding: 0.5rem 1rem;
     display: block;
-    border: 1px solid red;
     text-decoration: none;
+    color: #00bff9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:focus {
+    background-color: #f0c808;
+    color: black;
+}
+nav a:hover {
+    background-color: #f0c808;
+    color: #ff583d;
+    background-image: url(iceberg-canada.jpg);
+}
+
+.active {
+    color: #ff583d;
+    background-color: #c5e5ed;
+    border-top: 5px solid #00bff3;
+    border-bottom: 5px solid #00bff3;
 }
