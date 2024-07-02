@@ -28,6 +28,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav li {
@@ -56,4 +57,12 @@ nav a:hover {
 .active {
     color: #ff583d;
     background-color: #c5e5ed;
+}
+
+img {
+    width: 100px;
+    /* max-width: 100%; */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
