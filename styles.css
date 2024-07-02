@@ -18,8 +18,8 @@ nav {
     margin: 1rem auto;
     background-color: #eee;
     background-image: url(bg-img.jpg);
-    border-top: 5px solid #00bff3;
-    border-bottom: 5px solid #00bff3;
+    border-top: 3px solid #00bff3;
+    border-bottom: 3px solid #00bff3;
 }
 
 nav ul {
@@ -27,6 +27,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
 }
 
 nav a {
