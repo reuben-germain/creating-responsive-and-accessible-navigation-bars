@@ -30,6 +30,10 @@ nav ul {
     justify-content: center;
 }
 
+nav li {
+    border: 1px solid red;
+}
+
 nav a {
     padding: 0.5rem 1rem;
     display: block;
