@@ -27,6 +27,7 @@ nav {
     border-bottom: 3px solid #00bff3;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 nav ul {
