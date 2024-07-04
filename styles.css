@@ -25,6 +25,8 @@ nav {
     background-image: url(bg-img.jpg);
     border-top: 3px solid #00bff3;
     border-bottom: 3px solid #00bff3;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul {
